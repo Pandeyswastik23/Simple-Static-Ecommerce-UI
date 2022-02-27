@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UI Dekho</title>
+   
+    
+<link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+
+    
+</head>
+<body>
+
+    <!-- Header code -->
+    <section class = "sub-header">
+
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt = "image not found"></a>
+            <div class = "nav-links" id = "navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="About us.html">About Us </a></li>
+                    <li><a href="career.html"> Services </a></li>
+                    <li><a href="">Career </a></li>
+                    <li><a href="">Contact Us </a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick = "showMenu()" ></i>
+
+        </nav>
+      <h1>
+          Fixing problems, generating solutions!!
+      </h1>
+
+
+    </section>
+
+    <section class="services">
+        <h1>
+            Services from UI DEKHO!!
+        </h1>
+
+       
+    
+        <p>
+
+        At UI DEKHO, we have a dynamic and versatile team of fully grown matured developers who have prior experience
+        along with college students, who are just dived in software development world. We are providing freelancing services
+        we are providing one common plateform to learn, solve and debug daily front-end problems.
+    
+            <br>
+            
+    
+            
+        </p>
+        <div class="row">
+            <div class="services-col">
+                <h3>Build UI Skills</h3>
+                <p>Here you will get al the useful resources, which will help you to become successful fomt end developer.
+                </p>
+            </div>
+            <div class="services-col">
+                <h3>Freelancing services</h3>
+                <p>Here you will get al the useful resources, which will help you to become successful fomt end developer.
+                </p>
+            </div>
+            <div class="services-col">
+                <h3>Tech forum</h3>
+                <p>Here you will get al the useful resources, which will help you to become successful fomt end developer.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+
+ 
+    <section class = "footer">
+
+        <h4>
+            About Us
+        </h4>
+        <br>
+
+        <p>
+           We are the team of diverse front end developers, and tech educators <br> and our goal is to create a dynamic community where the students, educators, and the enginners can come to one place and can provide the efficient solutions for daily UI/Front-end problems.
+        </p>
+        <br>
+        <br>
+        <div class="icons">
+
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>
+            Made with <i class="fa fa-copyright" ></i> By Swastik Pandey
+        </p>
+
+    </section>
+    
+    <!-- javaScript for onClick functionalities for menu bar -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+
+         function hideMenu()
+            {
+                navLinks.style.right = "-200px";
+
+            }
+    </script>
+</body>
+</html>

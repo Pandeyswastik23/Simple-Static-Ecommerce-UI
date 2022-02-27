@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UI Dekho</title>
+   
+    
+<link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+
+    
+</head>
+<body>
+
+    <!-- Header code -->
+    <section class = "sub-header">
+
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt = "image not found"></a>
+            <div class = "nav-links" id = "navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="About us.html">About Us </a></li>
+                <li><a href="career.html"> Services </a></li>
+                <li><a href="">Career </a></li>
+                <li><a href="">Contact Us </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick = "showMenu()" ></i>
+
+        </nav>
+      <h1>
+          About Us
+      </h1>
+
+
+    </section>
+
+    <section class="about-us">
+        <div class = "row">
+
+            <div class="about-col">
+
+                <h1>
+                    UI Dekho
+                </h1>
+                <br>
+                
+                <p>
+                    In UI DEKHO, we are providing One common plateform , where one can easily resolve query related to User interface
+                    related problems
+                    We are providing a clear path which can lead someone to become frontend/ UI Enginner, as per the industry
+                    requirements.
+                    
+                    Along with, we are providing freelancing solutions also, for small to large scale project development.
+                </p>
+                    <br>
+                    <br>
+                <a href="" class = "primary-btn red-btn">Explore now</a>
+            </div>
+                <div class="about-col">
+                    <img src="images/about.jpg" alt = "image not found">
+                </div>
+            </div>
+
+            <div class="about-col">
+            
+               
+            </div>
+        </div>
+    </section>
+    <!-- End of header code -->
+    
+    
+     <!-- Services code -->
+
+
+    
+    
+
+    
+
+ 
+    <section class = "footer">
+
+        <h4>
+            About Us
+        </h4>
+        <br>
+
+        <p>
+           We are the team of diverse front end developers, and tech educators <br> and our goal is to create a dynamic community where the students, educators, and the enginners can come to one place and can provide the efficient solutions for daily UI/Front-end problems.
+        </p>
+        <br>
+        <br>
+        <div class="icons">
+
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>
+            Made with <i class="fa fa-copyright" ></i> By Swastik Pandey
+        </p>
+
+    </section>
+    
+    <!-- javaScript for onClick functionalities for menu bar -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+
+         function hideMenu()
+            {
+                navLinks.style.right = "-200px";
+
+            }
+    </script>
+</body>
+</html>
